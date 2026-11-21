@@ -18,7 +18,7 @@ qrterm 的做法是反过来：**不依赖前景色，逐个模块写死背景�
 ## 安装
 
 ```bash
-git clone https://github.com/Juslist/qrterm.git
+git clone https://github.com/Milefer7/qrterm.git
 cd qrterm
 npm install
 
