@@ -1,0 +1,21 @@
+{
+  "name": "qrterm",
+  "version": "0.1.0",
+  "description": "在终端里画可直接扫描的二维码（白底黑块，不受终端主题影响），并支持从网页里抓取/解码二维码",
+  "main": "src/qrterm.js",
+  "bin": {
+    "qrterm": "bin/qrterm.js"
+  },
+  "scripts": {
+    "test": "node test/verify.js"
+  },
+  "keywords": ["qr", "qrcode", "terminal", "cli", "playwright", "login"],
+  "license": "MIT",
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  },
+  "optionalDependencies": {
+    "jsqr": "^1.4.0",
+    "pngjs": "^7.0.0"
+  }
+}

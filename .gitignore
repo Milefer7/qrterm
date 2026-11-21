@@ -1,0 +1,14 @@
+node_modules/
+*.tgz
+
+# 本地运行产物 / 隐私数据
+profile/          # examples/playwright-login.js 的持久化登录态（含 cookie，绝不能提交）
+.env
+.env.*
+
+# 系统与编辑器
+.DS_Store
+*.log
+*.swp
+.idea/
+.vscode/
